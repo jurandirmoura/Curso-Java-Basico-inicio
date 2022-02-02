@@ -1,0 +1,17 @@
+package com.jurandir.cursojava.aula24.Labs;
+
+import java.util.Date;
+
+public class LivroDeBiblioteca {
+	
+	String nome;
+	String autor;
+	int qtdPaginas;
+	int anoLancamento;
+	String isbn;
+	
+	boolean emprestado;
+	Date dataEntrega;
+	String emprestadoA;
+	
+}
