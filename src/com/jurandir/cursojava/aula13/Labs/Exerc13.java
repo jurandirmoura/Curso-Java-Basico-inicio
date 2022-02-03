@@ -1,5 +1,7 @@
 package com.jurandir.cursojava.aula13.Labs;
 
+import java.util.Scanner;
+
 public class Exerc13 {
 
 	public static void main(String[] args) {
@@ -25,7 +27,8 @@ public class Exerc13 {
 		System.out.println("IR: " + ir);
 		System.out.println("Total descontos: " + totalDescontos);
 		System.out.println("Salário líquido: " + salarioLiquido);
-
+		
+		scan.close();
 	}
 
 }
