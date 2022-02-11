@@ -1,5 +1,7 @@
 package com.jurandir.cursojava.aula17.Labs;
 
+import java.util.Scanner;
+
 public class Exerc32 {
 
 	public static void main(String[] args) {
@@ -53,7 +55,8 @@ public class Exerc32 {
 	        }while(naoTerminar);
 	        
 	        System.out.println(output);
-
+	        
+	        scan.close();
 	}
 
 }
